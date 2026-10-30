@@ -50,6 +50,17 @@ or in a repository with no screens, replace the table with the line: No visible 
 
 -
 
+## What could go wrong
+
+<!--
+When the change touches what its tests can't hold (the order it deploys in against other PRs, rows or events already
+in production, a contract another app reads, Stripe or Iterable, a charge or a text that can't be taken back): one to
+three ways it could hurt customers, money or data, each as "If X, then Y. We'd see it in Z. To back it out, W." Under
+Verified, how you checked each one, or "not checked". Otherwise, replace the list with the line: No new risk.
+-->
+
+-
+
 ## What it doesn't change
 
 <!-- What a reviewer might fear this touches and it doesn't: deploys, other markets, other callers, rows already written. -->

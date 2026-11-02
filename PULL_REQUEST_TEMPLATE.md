@@ -1,7 +1,8 @@
 <!--
 The reviewer reads this before the diff: show the change, don't retell it. Same sections, same order, under ~250
 words outside the diagram (2u-linear:code-standards, "The pull request description"). The "PR description" check
-fails without the Flow section, without the Skills line, or, in a repository with screens, without pictures when
+fails without the ticket (its ID in the title, or after "Fixes" or "Part of" on the line below; 2U-0000 doesn't
+count), without the Flow section, without the Skills line, or, in a repository with screens, without pictures when
 screen code changed.
 -->
 

@@ -1,9 +1,11 @@
 <!--
 The reviewer reads this before the diff: show the change, don't retell it. Same sections, same order, under ~250
 words outside the diagram (2u-linear:code-standards, "The pull request description"). The "PR description" check
-fails without the ticket (its ID in the title, or after "Fixes" or "Part of" on the line below; 2U-0000 doesn't
-count), without the Flow section, without the Skills line, or, in a repository with screens, without pictures when
-screen code changed.
+fails without the ticket (its ID in the title, or after "Fixes" on the line below; 2U-0000 doesn't count), without
+the Flow section, without the Skills line, or, in a repository with screens, without pictures when screen code
+changed. "Fixes" is for the ticket's own work, every PR of it: its merge moves the ticket to In QA. A ticket this PR
+only touches takes "Related to 2U-1234", which moves nothing. Not "Part of" or "Refs": they park a merged ticket in
+In Review (2U-3136).
 -->
 
 Fixes [2U-0000](https://linear.app/2ulaundry/issue/2U-0000) — what changes, in one sentence.

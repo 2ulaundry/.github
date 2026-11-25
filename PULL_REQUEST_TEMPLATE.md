@@ -5,7 +5,8 @@ fails without the ticket (its ID in the title, or after "Fixes" on the line belo
 the Flow section, without the Skills line, or, in a repository with screens, without pictures when screen code
 changed. "Fixes" is for the ticket's own work, every PR of it: its merge moves the ticket to In QA. A ticket this PR
 only touches takes "Related to 2U-1234", which moves nothing. Not "Part of" or "Refs": they park a merged ticket in
-In Review (2U-3136).
+In Review (2U-3136). If the ticket will have another PR, open it before this one merges, a draft is fine: Linear moves
+the ticket to In QA when the last PR it knows of merges (2U-3177).
 -->
 
 Fixes [2U-0000](https://linear.app/2ulaundry/issue/2U-0000) — what changes, in one sentence.
